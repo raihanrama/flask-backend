@@ -51,8 +51,8 @@ def llm_generate_recipe(food_name):
 def llm_generate_description(food_name):
     try:
         prompt = (
-            f"Berikan deskripsi singkat dan menarik tentang makanan bernama {food_name}. "
-            f"Ceritakan dalam 2-3 kalimat, gunakan bahasa Indonesia yang ringan dan informatif. "
+            f"Berikan deskripsi singkat dan menarik tentang makanan atau bahan baku atau daging bernama {food_name}. "
+            f"Ceritakan dalam 2 paragraf, gunakan bahasa Indonesia yang ringan serta informatif. "
             f"Tambahkan emoji agar lebih menarik untuk dibaca."
         )
 
